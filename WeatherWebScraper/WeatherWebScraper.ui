@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<UI version="4.0">
+	<class>WeatherWebScraperClass</class>
+	<widget class="QMainWindow" name="WeatherWebScraperClass">
+		<property name="geometry">
+			<rect>
+				<x>0</x>
+				<y>0</y>
+				<width>805</width>
+				<height>417</height>
+			</rect>
+		</property>
+		<property name="windowTitle">
+			<string>WeatherWebScraper</string>
+		</property>
+		<widget class="QWidget" name="centralWidget">
+			<layout class="QGridLayout" name="gridLayout">
+				<item row="0" column="0">
+					<widget class="QLabel" name="labelSearchLocation">
+						<property name="text">
+							<string>Search location:</string>
+						</property>
+					</widget>
+				</item>
+				<item row="0" column="1">
+					<widget class="QLineEdit" name="leSearchLocation"/>
+				</item>
+				<item row="0" column="2">
+					<widget class="QPushButton" name="pbSearch">
+						<property name="text">
+							<string>Search</string>
+						</property>
+					</widget>
+				</item>
+				<item row="1" column="0">
+					<widget class="QLabel" name="labelLocation">
+						<property name="text">
+							<string>Location:</string>
+						</property>
+					</widget>
+				</item>
+				<item row="1" column="1" colspan="2">
+					<widget class="QLineEdit" name="leLocation">
+						<property name="readOnly">
+							<bool>true</bool>
+						</property>
+					</widget>
+				</item>
+				<item row="2" column="0">
+					<widget class="QLabel" name="labelTemperature">
+						<property name="text">
+							<string>Temperature:</string>
+						</property>
+					</widget>
+				</item>
+				<item row="2" column="1" colspan="2">
+					<widget class="QLineEdit" name="leTemperature">
+						<property name="readOnly">
+							<bool>true</bool>
+						</property>
+					</widget>
+				</item>
+				<item row="3" column="0">
+					<widget class="QLabel" name="labelCondition">
+						<property name="text">
+							<string>Condition:</string>
+						</property>
+					</widget>
+				</item>
+				<item row="3" column="1" colspan="2">
+					<widget class="QLineEdit" name="leCondition">
+						<property name="readOnly">
+							<bool>true</bool>
+						</property>
+					</widget>
+				</item>
+				<item row="4" column="0">
+					<widget class="QLabel" name="labelPrecipitation">
+						<property name="text">
+							<string>Precipitation:</string>
+						</property>
+					</widget>
+				</item>
+				<item row="4" column="1" colspan="2">
+					<widget class="QLineEdit" name="lePrecipitation">
+						<property name="readOnly">
+							<bool>true</bool>
+						</property>
+					</widget>
+				</item>
+			</layout>
+		</widget>
+	</widget>
+	<resources/>
+	<connections/>
+</UI>
